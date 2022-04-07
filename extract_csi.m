@@ -1,5 +1,3 @@
-% Xianjun Jiao. xianjun.jiao@imec.be; putaoshu@msn.com
-
 clear all;
 close all;
 
