@@ -3,7 +3,7 @@ close all;
 
 num_eq = 8;
 
-a = load('331L2G.txt');
+a = load('331G2L.txt');
 len_a = floor(length(a)/4)*4;
 a = a(1:len_a);
 
@@ -43,4 +43,4 @@ end
 figure; plot(timestamp); title('time stamp (TSF value)'); ylabel('us'); xlabel('packet');  grid on;
 figure; plot(freq_offset); title('freq offset (Hz)'); ylabel('Hz'); xlabel('packet'); grid on;
 
-csi_1 = readmatrix('gain1.csv');
+csi_1 = readmatrix('alice.csv');
