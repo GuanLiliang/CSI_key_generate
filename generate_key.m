@@ -7,7 +7,7 @@ function ret = generate_key(a, b)
         return;
     end
     qb = threshold(b);
-    list_two = seq(a, qb);
+    list_two = seq(b, qb);
     if (list_two(1) == 0)
         ret = -1;
         return;
